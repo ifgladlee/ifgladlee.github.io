@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "android 开发学习笔记 一"
+title: "android开发学习笔记 一"
 categories: notes
 ---
 
