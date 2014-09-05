@@ -1,74 +1,74 @@
 ---
 layout: post
-title: "emacsÑ§Ï°±Ê¼ÇÖ®buffer"
-categories: notes
+title: "emacså­¦ä¹ ç¬”è®°ä¹‹buffer"
+categories: diary
 ---
 
-¡¡¡¡Emacs¿ÉÒÔÓĞ¶à¸öbuffer£¬Ã¿¸öbuffer¶¼ÓĞ¸÷×ÔµÄÃû×Ö£¬ËüÃÇÓĞµÄÓëÎÄ¼ş¹ØÁª£¬ÓĞµÄ²»È»¡£ÈÎÒâÊ±¿Ì£¬Ö»ÓĞÒ»¸öbufferÊÇ±»Ñ¡ÖĞµÄ¡£Èç¹ûemacsÖ»ÓĞÒ»¸öwindow£¬ÔòÕâ¸öwindowÀïµÄbuffer×ÔÈ»¾ÍÊÇ±»Ñ¡ÖĞµÄ×´Ì¬¡£¶øÈç¹ûÓĞ¶à¸öwindow£¬Ôò±»Ñ¡ÖĞµÄwindowÀïµÄbufferÎª±»Ñ¡ÖĞ¡£
+ã€€ã€€Emacså¯ä»¥æœ‰å¤šä¸ªbufferï¼Œæ¯ä¸ªbufferéƒ½æœ‰å„è‡ªçš„åå­—ï¼Œå®ƒä»¬æœ‰çš„ä¸æ–‡ä»¶å…³è”ï¼Œæœ‰çš„ä¸ç„¶ã€‚ä»»æ„æ—¶åˆ»ï¼Œåªæœ‰ä¸€ä¸ªbufferæ˜¯è¢«é€‰ä¸­çš„ã€‚å¦‚æœemacsåªæœ‰ä¸€ä¸ªwindowï¼Œåˆ™è¿™ä¸ªwindowé‡Œçš„bufferè‡ªç„¶å°±æ˜¯è¢«é€‰ä¸­çš„çŠ¶æ€ã€‚è€Œå¦‚æœæœ‰å¤šä¸ªwindowï¼Œåˆ™è¢«é€‰ä¸­çš„windowé‡Œçš„bufferä¸ºè¢«é€‰ä¸­ã€‚
 
-- ´´½¨ºÍÑ¡Ôñbuffers
+- åˆ›å»ºå’Œé€‰æ‹©buffers
 
   + `C-x b buffer RET`
 
-    Ñ¡Ôñ»ò´´½¨Ò»¸ö±»ÃüÃûµÄbuffer¡£
+    é€‰æ‹©æˆ–åˆ›å»ºä¸€ä¸ªè¢«å‘½åçš„bufferã€‚
 
   + `C-x 4 b buffer RET`
 
-    ÀàËÆ¡£²»¹ıÊÇ¶ÔÁíÍâÒ»¸öwindow²Ù×÷¡£
+    ç±»ä¼¼ã€‚ä¸è¿‡æ˜¯å¯¹å¦å¤–ä¸€ä¸ªwindowæ“ä½œã€‚
 
   + `C-x 5 b buffer RET`
 
-    ÀàËÆ£¬²»¹ıÊÇ¶ÔÁíÍâÒ»¸öframe²Ù×÷¡£
+    ç±»ä¼¼ï¼Œä¸è¿‡æ˜¯å¯¹å¦å¤–ä¸€ä¸ªframeæ“ä½œã€‚
 
   + `C-x LEFT/RIGHT`
 
-    Ñ¡ÔñÇ°/ºóÒ»¸öbuffer.
+    é€‰æ‹©å‰/åä¸€ä¸ªbuffer.
 
   + `C-u M-g M-g`
 
     `C-u M-g g`
 
-    ¶ÁÈ¡Ò»¸öÊı×Ön£¬ÔÚÁíÍâÒ»¸öwindowÖĞ´ò¿ª×î½üÒ»¸öbufferµÄµÚnĞĞ¡£
+    è¯»å–ä¸€ä¸ªæ•°å­—nï¼Œåœ¨å¦å¤–ä¸€ä¸ªwindowä¸­æ‰“å¼€æœ€è¿‘ä¸€ä¸ªbufferçš„ç¬¬nè¡Œã€‚
 
   +
-- ÁĞ³ö´æÔÚµÄbuffers
+- åˆ—å‡ºå­˜åœ¨çš„buffers
 
   + `C-x C-b`
 
-    ÁĞ³ö´æÔÚµÄbufferÁĞ±í¡£¿ÉÓÃ`C-u C-x C-b`Ö»ÁĞ³ö¹ØÁªÎÄ¼şµÄbuffers¡£
+    åˆ—å‡ºå­˜åœ¨çš„bufferåˆ—è¡¨ã€‚å¯ç”¨`C-u C-x C-b`åªåˆ—å‡ºå…³è”æ–‡ä»¶çš„buffersã€‚
 
-- ÆäËûbuffer²Ù×÷
+- å…¶ä»–bufferæ“ä½œ
 
   + `C-x C-q`
 
-    ¿ª¹Øµ±Ç°bufferµÄÖ»¶Á×´Ì¬¡£
+    å¼€å…³å½“å‰bufferçš„åªè¯»çŠ¶æ€ã€‚
 
   + `M-x rename-buffer RET name RET`
 
-    ÖØÃüÃûµ±Ç°buffer¡£
+    é‡å‘½åå½“å‰bufferã€‚
 
   + `M-x rename-uniquely`
 
-    ÖØÃüÃûµ±Ç°buffer£¬ÔÚÄ©Î²¼ÓÉÏ`<number>`¡£
+    é‡å‘½åå½“å‰bufferï¼Œåœ¨æœ«å°¾åŠ ä¸Š`<number>`ã€‚
 
   + `M-x view-buffer RET buffer RET`
 
-    ÔÚ`buffer`ÖĞ¹ö¶¯ä¯ÀÀ¡£
+    åœ¨`buffer`ä¸­æ»šåŠ¨æµè§ˆã€‚
 
-    `M-x rename-uniquely`»á×Ô¶¯¸øµ±Ç°bufferÃû×Ö¼ÓÉÏÒ»¸ö¶ÀÌØµÄÊı×ÖÊ¹Ö®ÓëÆäËû²»ÖØ¸´¡£
+    `M-x rename-uniquely`ä¼šè‡ªåŠ¨ç»™å½“å‰bufferåå­—åŠ ä¸Šä¸€ä¸ªç‹¬ç‰¹çš„æ•°å­—ä½¿ä¹‹ä¸å…¶ä»–ä¸é‡å¤ã€‚
 
-    ÁíÍâ£¬`M-x append-to-buffer`ºÍ`M-x insert-buffer`¿ÉÒÔ´ÓÒ»¸öbuffer¸´ÖÆÎÄ×Öµ½ÁíÒ»¸öbuffer¡£
+    å¦å¤–ï¼Œ`M-x append-to-buffer`å’Œ`M-x insert-buffer`å¯ä»¥ä»ä¸€ä¸ªbufferå¤åˆ¶æ–‡å­—åˆ°å¦ä¸€ä¸ªbufferã€‚
 
-- Çå³ıbuffer¡£
+- æ¸…é™¤bufferã€‚
 
   + `C-x k bufname RET`
 
-    Çå³ı`bufname`Õâ¸öbuffer¡£
+    æ¸…é™¤`bufname`è¿™ä¸ªbufferã€‚
 
   + `M-x kill-some-buffer`
 
-    ÖğÒ»Çå³ıbuffers¡£
+    é€ä¸€æ¸…é™¤buffersã€‚
 
   + `M-x kill-matching-buffers`
 
-    Çå³ıÆ¥ÅäÕıÔò±í´ïÊ½µÄbuffers¡£
+    æ¸…é™¤åŒ¹é…æ­£åˆ™è¡¨è¾¾å¼çš„buffersã€‚
