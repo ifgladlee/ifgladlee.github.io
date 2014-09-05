@@ -1,7 +1,7 @@
 ---
-layout:post
-title:"emacs学习笔记之buffer"
-categories:notes
+layout: post
+title: "emacs学习笔记之buffer"
+categories: notes
 ---
 　　Emacs可以有多个buffer，每个buffer都有各自的名字，它们有的与文件关联，有的不然。任意时刻，只有一个buffer是被选中的。如果emacs只有一个window，则这个window里的buffer自然就是被选中的状态。而如果有多个window，则被选中的window里的buffer为被选中。
 
