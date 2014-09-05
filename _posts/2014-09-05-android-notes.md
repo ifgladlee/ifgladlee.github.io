@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "android¿ª·¢Ñ§Ï°±Ê¼Ç Ò»"
+title: "androidå¼€å‘å­¦ä¹ ç¬”è®° ä¸€"
 categories: notes
 ---
 
-¡¡¡¡markß×ÔõÃ´²»ĞĞÁËÄØ
+ã€€ã€€markå’¦æ€ä¹ˆä¸è¡Œäº†å‘¢
