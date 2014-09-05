@@ -30,7 +30,6 @@ categories: notes
 
     读取一个数字n，在另外一个window中打开最近一个buffer的第n行。
 
-  +
 - 列出存在的buffers
 
   + `C-x C-b`
