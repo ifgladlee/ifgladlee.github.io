@@ -82,5 +82,5 @@ categories: notes
 
     见名知意。<br/><br/>
     
-    ![buffer_menu](/images/emacs/buffer_menu_1.png)
+    ![buffer_menu](/images/emacs/buffer_menu_1.png "buffer menu")
 
