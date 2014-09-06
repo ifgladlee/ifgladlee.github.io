@@ -86,7 +86,7 @@ categories: notes
 
     在buffer列表允许以下的操作。
 
-    **标记**
+    *标记*。<br/><br/>
 
     标记是指在列表中可以用以下的操作对某一个buffer进行标记，在完成所有的标记之后可以用`x`执行。
 
@@ -114,3 +114,69 @@ categories: notes
     * `DEL`
 
       移至前一行并清除前一行的`d`标记。
+
+    *立即操作*。
+
+    以下命令可以立即执行。
+
+    * `~`
+
+      标记当前buffer为未修改过的。
+
+    * `%`
+
+      开/关当前buffer的只读状态。
+
+    * `t`
+
+      以tags table访问当前buffer。
+
+    * `q`
+
+      退出当前buffer菜单（泪流满面终于知道怎么退出了T_T）。
+
+    * `RET`
+
+      `f`
+
+      选择当前的buffer并显示。
+
+    * `o`
+
+      类似以上，不过在另外一个window显示当前选中的buffer。
+
+    * `C-o`
+
+      类似上，不过并不选中那个buffer（不切换过去）。
+
+    * `1`
+
+      选中当前buffer并在一个full-frame window中显示。
+
+    * `2`
+
+      拆分出一个window并分别显示打开buffer菜单之前的buffer的当前的buffer。
+
+    * `b`
+
+      将当前buffer移至列表底部。
+
+    * `m`
+
+      标记当前buffer。当执行`v`命令的时候再另外一个窗口中显示这些buffer。
+
+    * `v`
+
+      和已经用`m`标记的buffer都用各自的buffer显示。
+
+    *影响整个buffer列表的命令*
+
+    * `S`
+
+      根据当前光标所在的栏对buffer列表进行排序。可用数字前缀指定要排序的列。
+
+    * `T`
+
+      开关对非文件的buffer的显示、<br/><br/>
+
+    一般来说，buffer list并不会自动更新，可以用`g`来更新。
