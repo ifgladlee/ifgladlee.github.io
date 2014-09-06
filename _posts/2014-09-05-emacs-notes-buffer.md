@@ -82,4 +82,4 @@ categories: notes
 
     见名知意。
 
-    ![buffer menu](/images/emacs/buffer_menu_1.png)
+    ![buffer_menu] (/images/emacs/buffer_menu_1.png)
