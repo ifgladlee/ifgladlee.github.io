@@ -71,3 +71,15 @@ categories: notes
   + `M-x kill-matching-buffers`
 
     清除匹配正则表达式的buffers。
+
+- 若干个buffers的操作
+
+  + `M-x buffer-menu`
+
+    编辑一个列出所有buffer的buffer（听上去貌似挺拗口的呢:P）
+
+  + `M-x buffer-menu-other-window`
+
+    见名知意。
+
+    ![buffer menu] (/images/emacs/buffer_menu_1.png)
