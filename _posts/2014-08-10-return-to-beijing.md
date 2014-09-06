@@ -12,10 +12,9 @@ jekyll真是不错，用**markdown**写日志，
 
 ---
 
-附女神照片，实践markdown语法:P.
+<s>本段已删除</s>
 
 
-![better][p1]
 
 
-[p1]:/images/better_9.jpg
+
