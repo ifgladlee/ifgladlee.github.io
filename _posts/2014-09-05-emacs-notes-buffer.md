@@ -80,7 +80,7 @@ categories: notes
 
   + `M-x buffer-menu-other-window`
 
-    见名知意。   
+    见名知意。
 
     ![buffer_menu] (/images/emacs/buffer_menu_1.png)
     <img src="/images/emacs/buffer_menu_1.png" alt="buffer menu"/>
