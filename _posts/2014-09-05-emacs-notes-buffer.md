@@ -180,3 +180,45 @@ categories: notes
       开关对非文件的buffer的显示、<br/><br/>
 
     一般来说，buffer list并不会自动更新，可以用`g`来更新。
+
+- 间接buffers
+
+  间接buffer是指以其他buffer为基buffer的一种buffer。
+
+  * `M-x make-indirect-buffer RET base-buffer RET indirect-name RET`
+
+  创建一个叫indirect-name的间接buffer，以base-buffer为基buffer。
+
+  * `M-x clone-indirect-buffer RET`
+
+  以当前buffer为基buffer，创建一个复制的间接buffer。
+
+  `C-x 4 c`
+
+  类似上面，并且在新的窗口打开这个间接buffer并选中。
+
+  间接buffer与基buffer里的内容总是保持一致的。其中一个buffer内容的修改会直接影响另一个buffer的内容。但是除此之外，它们是两个独立的buffer，它们有不同的名字，不同的光标位置，不同的major mode的本地变量等等。
+
+  间接buffer不能访问文件，所以对间接buffer执行保存操作实际是对基buffer进行保存。清除基buffer也会清除其间接buffer，而反之则不会。
+
+- 方便的特性和自定义buffer的操作
+
+  * _使buffer的名字惟一化_
+
+  如果多个buffer访问的文件名都一样，那么buffer的名字就需要变得惟一以方便区别。emacs默认是将文件名后面加上数字（'<2>','<3>'）。加载`uniquify`库（`require 'uniquify`）可以使用其他规则来定义buffer的名字。这主要是通过设置变量`uniquify-buffer-name-style`来实现的。
+
+    + `forward` /u/rms/tmp/Makefile -> 'tmp/Makefile';/usr/projects/zaphod/Makefile -> 'zaphod/Makefile'.
+	+ `post-forward` 'file|top1/middle1' & 'file|top2/middle2'
+	+ `reverse` 'file\middle1\top1' & 'file\midlle2\top2'
+
+  * 使用子字符串切换buffer
+
+    __istwitch__这个minor mode允许使用子字符串来在切换buffer的时候用子字符串匹配buffer name。先用`C-x b`打开buffer列表后，就可以输出子字符串进行匹配，按`RET`会选中当前匹配的第一个buffer.用`C-s`和`C-r`可以翻转当前匹配的buffer名单。
+
+  * 自定义buffer菜单
+
+  `M-x bs-show`
+
+  显示一个类似于`M-x list-buffers`的buffer列表，但是这个列表可以自定义。
+
+  
