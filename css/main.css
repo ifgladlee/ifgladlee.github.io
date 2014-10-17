@@ -225,16 +225,18 @@ a:visited { color: #205caa; }
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
+
 .post pre,
 .post code {
   border: 1px solid #d5d5e9;
-  background-color: #eef;
+  //background-color: #eef;
   padding: 8px 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 15px;
-  overflow:scroll;
+  //color: white;
+  overflow:none;
 }
 
 .post code { padding: 1px 5px; }
@@ -408,3 +410,6 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+@import url(/css/monokai.css);
+@import url(/css/lorenzo.css);
