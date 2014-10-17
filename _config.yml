@@ -8,5 +8,5 @@ url: "http://ifgladlee.github.com"
 github_username:  ifgladlee
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
