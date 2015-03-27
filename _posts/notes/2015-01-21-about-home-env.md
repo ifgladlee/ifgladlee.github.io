@@ -18,7 +18,7 @@ categories: notes
 
 所以说*%HOME%*是个讨厌的trouble maker了吧。
 
-怎么办呢，此技可谓奇技淫巧了，就是把**%HOME%**改成**%home%**。对，你懂了，因为windows是不区分大小写的，改成小写无所谓，而 \*nix系统是区分大小写的，改成小写之后相当于就没有设定*$HOME*这个环境变量了，一进cygwin，*~*目录又恢复了，噗。
+怎么办，此技可谓奇技淫巧吧，就是把**%HOME%**改成**%home%**。对，你懂了，因为windows是不区分大小写的，改成小写无所谓，而 \*nix系统是区分大小写的，改成小写之后相当于就没有设定*$HOME*这个环境变量了，一进cygwin，*~*目录又恢复了，噗。
 
 [1]: http://www.cnblogs.com/dudu/archive/2011/07/06/git_save_username_password.html
 
