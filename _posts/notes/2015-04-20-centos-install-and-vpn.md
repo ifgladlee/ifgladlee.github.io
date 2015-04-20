@@ -77,4 +77,4 @@ iptables -t nat -A POSTROUTING -s 192.168.3.0/24 -o p4p1 -j MASQUERADE
 
 保存`iptables`规则，可用`service iptables save`，会将配置保存到`/etc/sysconfig/iptables`，下次开机可用`iptables-restore /etc/sysconfig/iptables`恢复配置。
 
-[1]: http://www.wanghailin.cn/centos7-yum-pero/
+[1]: http://www.wanghailin.cn/centos-7-vpn/
